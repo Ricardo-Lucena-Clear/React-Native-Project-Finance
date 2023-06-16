@@ -1,18 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import firebase from './src/services/firebaseConnection';
 
-import { Container, Titulo, Nome, BotaoSujeito, BotaoText } from './src/styles';
-
-export default function App() {
+export default function financas() {
  return (
-   <Container>
-     <Titulo cor="#FF0000" >Sujeito Programador</Titulo>
-     <Nome>Olá Matheus!</Nome>
-
-     <BotaoSujeito onPress={ () => alert('CLICOU!') }>
-       <BotaoText>Entrar</BotaoText>
-     </BotaoSujeito>
-
-   </Container>
+   <View>
+   <Text>123123213</Text>
+   </View>
+   
   );
 }
